@@ -1,8 +1,6 @@
 // SponsorList.jsx
 import React, { useEffect, useState, useRef } from "react";
-import "./SponsorList.css"; // Ensure this is imported
-
-// IMPORTS BASED ON YOUR SCREENSHOT FILE PATHS
+import "./SponsorList.css";
 import sponsorLogo1 from "/home/kshit/meramonitor/signupPage/src/assets/sponsors/1.png";
 import sponsorLogo2_2 from "/home/kshit/meramonitor/signupPage/src/assets/sponsors/2_2.png";
 import sponsorLogo4_2 from "/home/kshit/meramonitor/signupPage/src/assets/sponsors/4_2.png";

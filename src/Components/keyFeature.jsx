@@ -86,7 +86,7 @@ const KeyFeatures = () => {
                 <button className="bg-[#5b21b6] text-white px-4 py-2 rounded-full text-base sm:text-lg mb-2 sm:mb-0 transition-transform duration-200 hover:scale-105 hover:bg-[#4a1c99] whitespace-nowrap">
                     Start for free
                 </button>
-                <button className="bg-transparent text-[#5b21b6] border-2 border-[#5b21b6] px-4 py-2 rounded-full text-base sm:text-lg transition-transform duration-200 hover:scale-105 hover:bg-[#5b21b6] hover:text-white whitespace-nowrap">
+                <button className="bg-transparent text-[#5b21b6] border-2 border-[#5b21b6] px-4 py-2 rounded-full text-lg transition-transform duration-200 hover:scale-105 hover:bg-[#ede9fe] hover:text-[#4c1d95]">
                     Book a free demo
                 </button>
 
