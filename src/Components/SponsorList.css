@@ -1,0 +1,21 @@
+/* SponsorList.css */
+
+/* Keyframes for horizontal scrolling with duplicated content */
+@keyframes scroll-horizontal-duplicate {
+  0% {
+    transform: translateX(0); /* Start at the left */
+  }
+  100% {
+    transform: translateX(-50%); /* Scroll left by 50% of its own combined width (original + duplicate) */
+  }
+}
+
+/* Apply the animation to the container holding the logos */
+.horizontal-marquee-duplicate {
+  animation: scroll-horizontal-duplicate var(--scroll-duration, 30s) linear infinite;
+  /*
+  --scroll-duration: CSS variable to control speed from JS/React
+  linear: Constant speed
+  infinite: Loop indefinitely
+  */
+}
