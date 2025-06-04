@@ -1,12 +1,11 @@
 /* SponsorList.css */
 
-/* Keyframes for horizontal scrolling with duplicated content */
 @keyframes scroll-horizontal-duplicate {
   0% {
-    transform: translateX(0); /* Start at the left */
+    transform: translateX(0); 
   }
   100% {
-    transform: translateX(-50%); /* Scroll left by 50% of its own combined width (original + duplicate) */
+    transform: translateX(-50%); 
   }
 }
 
