@@ -1,12 +1,78 @@
-# React + Vite
+# 🖥️ Mera Monitor - React Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A front-end clone of the [Mera Monitor tracking page](https://track.meramonitor.com/?rc=test-site) built using React. This project replicates the original layout and structure using modern React practices.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive design similar to the original site
+- React component-based architecture
+- Clean and maintainable code structure
+- Styled using custom CSS
+- Placeholder for future integration (e.g., form handling or backend)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Git & GitHub
+
+## 📂 Folder Structure
+
+Mera-monitor/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Header.js
+│ │ ├── HeroSection.js
+│ │ ├── TrackForm.js
+│ │ └── Footer.js
+│ ├── App.js
+│ └── App.css
+├── package.json
+└── README.md
+
+
+
+## 🧑‍💻 Getting Started
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Bestnwin/Mera-monitor.git
+cd Mera-monitor
+
+2.Install dependencies
+npm install
+
+
+3.Run the development server
+npm start
+
+4.Then open in browser:
+http://localhost:3000
+
+📤 Deployment
+You can deploy this project using platforms like:
+
+Vercel
+
+Netlify
+
+GitHub Pages
+
+📌 Disclaimer
+This project is built only for educational and practice purposes. All design rights belong to the original creators of Mera Monitor.
+
+📬 Contact
+For any questions or collaboration:
+
+Name: Akshit Sharma
+
+Email: akshit6299@outlook.com
+
+LinkedIn: https://www.linkedin.com/in/akshit-sharma-19311228b/
+
+vbnet
+Copy
+Edit
+
